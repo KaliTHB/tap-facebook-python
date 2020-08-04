@@ -1,0 +1,114 @@
+ {
+    "streams": [
+      {
+      "stream": "leads",
+      "tap_stream_id": "leads",
+      "schema": {
+        "properties": {
+          "name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "objective": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "ad_id": {
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "campaign_id": {
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "adset_id": {
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "created_time": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "type": [
+          "null",
+          "object"
+        ]
+      },
+        "metadata": [
+          {
+          "breadcrumb": [
+            "properties",
+            "id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+         {
+          "breadcrumb": [
+            "properties",
+            "ad_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+         {
+          "breadcrumb": [
+            "properties",
+            "adset_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "campaign_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ad_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+         {
+          "breadcrumb": [
+            "properties",
+            "created_time"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        }
+
+        ]
+      
+    }
+  ]
+}
