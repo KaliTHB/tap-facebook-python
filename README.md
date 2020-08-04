@@ -25,4 +25,4 @@ state file
 
 command:
 
-tap-facebook -c config.json -p properties.json -s state.json
+tap-facebook -c config.json -p works/leads.json -s state.json
