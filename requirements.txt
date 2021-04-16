@@ -1,1 +1,1 @@
--e git+https://github.com/KaliTHB/tap-facebook.git
+-e git+https://github.com/KaliTHB/tap-facebook.git#egg=tap-facebook
